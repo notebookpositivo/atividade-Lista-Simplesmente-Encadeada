@@ -58,11 +58,6 @@ O `Funcionario.dat` é um arquivo **binário** (gravado com `fwrite`, um registr
 
 > Não abra o `.dat` em editor de texto e salve, porque isso corrompe os registros.
 
-## Limitações conhecidas
-
-- O campo de data de nascimento tem apenas 10 bytes, então o `fgets` lê no máximo 9 caracteres. O arquivo de exemplo usa o formato `dd/mm/aa`.
-- O programa não valida o formato de CPF, telefone e data.
-
 ## Estrutura do projeto
 
 ```
